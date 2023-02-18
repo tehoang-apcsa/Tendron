@@ -7,7 +7,7 @@ public void setup()
 
 public void draw()
 {
-  System.out.println(mouseX+", "+mouseY);
+ 
    background(#5C4033);
   Cluster c = new Cluster(50, 250, 250); // initial number of segments in the tendril and starting (x,y) coordinate
   stroke(0);
